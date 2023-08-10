@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --term-color: #016E51;
+  --red-color: #C20217;
+  --valid-color: #5088c8;
+  --blue-clor: #006AC3;
+  --blue-half-color: #006AC380;
+  --header-color: #016E51;
+  --disable-color: #E8F0FE;
+}
+
+
+body {
+  background-color: #f0f0f0;
+  color: #1a1919;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #142741;
+  color: #d7d7d7;
+}
+
+.dark-footer{
+  background-color: #2C2C2C;
+  color: #9d9d9d;
+}
+
+.light-footer{
+  background-color: #f0f0f0;
+  color: #5b5b5b;
+}
+
+.copyright-dark{
+  background-color: #100f0f;
+  color: #9d9d9d;
+}
+
+.copyright-light{
+  background-color: #797878;
+  color: #1f1f1f;
+}
+
+
+
+
+
+  /* hamburger-menu-icon start */
+.hamburger-menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  transition: transform 0.2s;
+}
+
+.open:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.open:nth-child(2) {
+  opacity: 0;
+}
+
+.open:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* hamburger-menu-icon end */
+/* You can adjust the duration and timing function as needed */
+.slide-in-out {
+  transition: transform 0.4s ease; 
+}
+
+.out{
+  transform: translateX(-150%);
+}
+.in{
+  transform: translateX(-0%);
+}
+
+.mobileHamburgerMenu{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background: #142741;
+  border-radius: 10px;
+}
+
+
+
+/* Home style is start  */
+
+.imgbg{
+  background-image: linear-gradient(to bottom, rgba(59, 63, 84, 0.7), rgba(91, 105, 144, 0.7)), url('./../../public/img/wall.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.topTitel a{
+   
+  
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  justify-content: center; align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  position: relative;
+}
+.topTitel a span{
+  z-index: 12;
+}
+.topTitel a::after{
+  content: '';
+  display: flex;
+  position: absolute;
+  left: 0;bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: .4s;
+  background-color: #267DFF;
+
+}
+.topTitel a:hover::after{
+  height: 0;
+}
+
+.box{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+
+.aboutBgImg{
+  
+  background-image: linear-gradient(to left, rgba(154, 157, 172, 0.512), rgba(131, 138, 157, 0.452)), url('./../../public/img/bgabout.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+
+
+/* Button style shadow */
+
+ .btn{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+
+
+ .wellnessBg{
+  background-image: linear-gradient(to left, rgba(37, 45, 96, 0.6), rgba(59, 67, 89, 0.452)), url('./../../public/img/wellnessBg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+ }
+
+
+ /* bgHouse background image is start */
+ .bgHouse{
+   background-image: linear-gradient(to left, rgba(28, 36, 83, 0.444), rgba(59, 67, 89, 0.696)),
+   url('./../../public/img/houseClients.jpg');
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+ }
+
+
+
+.bgImage{
+  background-image: linear-gradient(to left, rgba(28, 36, 83, 0.444), rgba(59, 67, 89, 0.696)),
+  url('./../../public/img/bgContact.jpg');
+  background-position: center;
+  background-size: start;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.bgPets{
+  background-image: linear-gradient(to left, rgba(28, 36, 83, 0.536), rgba(59, 67, 89, 0.771)),
+  url('./../../public/img/Anette2softB.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+
+.iconHover>section>span{
+  transition: .4s;
+}
+.iconHover>section:hover>span{
+  
+  background-color: #267DFF;
+}
+
+.iconHover>section{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 15px;
+}
+
+
+.contact{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+}
+
+
+.myInput {
+  background-color: #ffffff;
+  border: solid var(--blue-half-color) 1px !important;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 1rem;
+  margin-top: 0.1rem;
+  padding: 0 8px; 
+  outline: none;
+}
+
+.myInput.invalid {
+  background-color: var(--disable-color) !important;
+  border: 1px solid var(--red-color) !important;
+}
+
+.myInput.valid {
+  background-color: var(--disable-color) !important;
+  border: 1px solid var(--valid-color) !important;
+}
+
