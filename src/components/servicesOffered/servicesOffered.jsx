@@ -12,9 +12,9 @@ const ServicesOffered = () => {
             <figure className='mt-5 md:mt-0'>
                 <Image
                     className='rounded-lg'
-                    src="/img/consulting.jpg"
-                    width={550}
-                    height={700}
+                    src="/img/Anetteskog.png"
+                    width={50}
+                    height={200}
                     alt='image'
                 />
             </figure>

@@ -99,7 +99,7 @@ const Form = () => {
 
                 <form onSubmit={submitHandler} action="" className='flex justify-center flex-wrap px-6 '>
 
-                    <div className=" w-[45%]  mx-2 mt-3 flex flex-wrap">
+                    <div className=" w-full md:w-[45%]  mx-2 mt-3 flex flex-wrap">
                         <label htmlFor="name" className='w-full py-2 font-medium'>First Name</label>
                         <input
                             type="text"
@@ -109,7 +109,7 @@ const Form = () => {
                             onFocus={focucHandaler} />
                         {errors.firstName && focus.firstName && <span className='formField' >{errors.firstName}</span>}
                     </div>
-                    <div className=" w-[45%]  mx-2 mt-3 flex flex-wrap">
+                    <div className=" w-full md:w-[45%]  mx-2 mt-3 flex flex-wrap">
                         <label className='w-full py-2 font-medium' htmlFor="lastName"> Last Name</label>
                         <input
                             type="text"
@@ -121,7 +121,7 @@ const Form = () => {
                     </div>
 
 
-                    <div className=" w-[45%]  mx-2 mt-3 flex flex-wrap">
+                    <div className="  w-full md:w-[45%] mx-2 mt-3 flex flex-wrap">
                         <label className='w-full py-2 font-medium' htmlFor="email">Email</label>
                         <input
                             type="email"
@@ -134,7 +134,7 @@ const Form = () => {
 
                     </div>
 
-                    <div className=" w-[45%]  mx-2 mt-3 flex flex-wrap">
+                    <div className=" w-full md:w-[45%]  mx-2 mt-3 flex flex-wrap">
                         <label className='w-full py-2 font-medium' htmlFor="phone">Phone</label>
                         <input
                             type="tel"
@@ -146,7 +146,7 @@ const Form = () => {
                         {errors.phone && focus.phone && <span className='formField' >{errors.phone}</span>}
                     </div>
 
-                    <div className='w-[45%] mx-2  '>
+                    <div className=' w-full md:w-[45%] mx-2  '>
 
                         <div className='w-full me-4 mt-3 flex flex-wrap'>
 
@@ -170,7 +170,7 @@ const Form = () => {
                         </div>
                     </div>
 
-                    <div className='w-[45%] mx-2 mt-3 flex flex-wrap'>
+                    <div className=' w-full md:w-[45%] mx-2 mt-3 flex flex-wrap'>
                         <label className='w-full py-2 font-medium' htmlFor='date'>
                             Date
                         </label>

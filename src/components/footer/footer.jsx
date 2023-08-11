@@ -33,7 +33,7 @@ import Link from "next/link";
                 </section>
                 <section className="w-[450px]  ">
                     <h2 className="text-center font-bold text-2xl">Email me</h2>
-                      <p className="text-center font-medium text-1xl mt-4"> anettestjarnhjarta@gmail.com </p>
+                      <p className="text-center font-medium text-1xl mt-4">anette@stjarnhjarta.com</p>
                </section>
 
             </div>
@@ -100,3 +100,8 @@ import Link from "next/link";
   export default Footer
 
 
+ /*  but I don't have time to studying but I will try to do it
+
+
+  Thank you for asking I'm great.
+  I have been trying to study */
