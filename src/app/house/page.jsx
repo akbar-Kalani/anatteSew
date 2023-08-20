@@ -39,7 +39,7 @@ const House = () => {
                     />
 
 
-                    <figcaption className="w-[48%] mt-3 md:mt-0 ">
+                    <figcaption className="w-[48%] mt-5 md:mt-0 ">
                         <h3 className="font-bold text-4xl">House Clearing</h3>
                         <p className='leading-8 mt-4 text-lg '>
                             Is your home and property haunted or infested with negative energy? <br />
@@ -62,9 +62,9 @@ const House = () => {
 
             <article className="flex flex-wrap items-center justify-between px-10 md:px-16 mt-12">
 
-                <figure className="flex flex-wrap justify-evenly">
+                <figure className="flex flex-wrap-reverse justify-evenly">
 
-                    <figcaption className="w-[48%] mt-3 md:mt-0">
+                    <figcaption className="w-[48%] mt-5 md:mt-0">
                         <span className='text-[40px] font-medium'>
                             Signs that your home could be haunted:
                         </span>
