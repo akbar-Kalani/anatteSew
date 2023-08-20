@@ -11,11 +11,11 @@ const TopHome = () => {
             <div className='imgbg rounded-xl'>
                 <section className="flex items-center flex-wrap justify-evenly">
                     
-                    <div className='w-[700px] p-4 md:p-0 '>
+                    <div className='w-[700px] p-4 md:p-0 text-[#1c1c1c] '>
                         <p className='text-[25px] md:text-[38px]  mt-3 font-bold '>
                         Have you tried to heal your body, <br /> and whatever you do is not working?
                         </p>
-                        <p className='mt-5 text-[17px] font-medium'>
+                        <p className='mt-5 text-lg font-medium'>
                         Or you can't shut off your negative thoughts no matter what you try. Are your symptoms; feeling stressed, tired, anxious, worried, or pain and tension in your body?
                         </p>
 
@@ -28,7 +28,7 @@ const TopHome = () => {
                             href="/contact"
                             className='absolute'
                             >
-                           <span>  Book Sesstion</span>
+                           <span>  Book a Sesstion</span>
                             </Link>
                          </button>
                     </div>

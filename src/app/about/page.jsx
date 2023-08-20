@@ -7,18 +7,18 @@ const About = () => {
     <section className=' '>
       <section className='aboutBgImg flex items-center'>
 
-        <article className=' px-10 md:ps-36 '>
+        <article className=' px-10 md:ps-36 text-[#d2d5db] '>
           <h1 className='text-[34px] font-bold'>
             Joy and Freedom to live.
           </h1>
           <p className='mt-6 font-semibold text-[20px]'>It's possible to reset your health your life. Find out how!</p>
 
-          <button className='mt-20 topTitel bg-[#142741] w-[200px] h-14 rounded-xl'>
+          <button className='mt-20 topTitel bg-[#142741] w-[230px] h-16 rounded-xl'>
             <Link
               href="/contact"
               className='absolute'
             >
-              <span>  Book Sesstion</span>
+              <span>  Book a Sesstion</span>
             </Link>
           </button>
         </article>
@@ -29,7 +29,7 @@ const About = () => {
         <figure className='w-[450px]'>
           <Image
             className='rounded-lg object-cover'
-            src="/img/about.jpg"
+            src="/img/abouts.jpg"
             width={450}
             height={400}
             alt='image'

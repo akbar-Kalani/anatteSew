@@ -15,12 +15,12 @@
 
 body {
   background-color: #f0f0f0;
-  color: #1a1919;
+  color: #616f8e;
 }
 
 /* Dark mode styles */
 body.dark-mode {
-  background-color: #142741;
+  background-color: #121c2a;
   color: #d7d7d7;
 }
 
@@ -31,7 +31,7 @@ body.dark-mode {
 
 .light-footer{
   background-color: #f0f0f0;
-  color: #5b5b5b;
+  color: #000000;
 }
 
 .copyright-dark{
@@ -115,9 +115,12 @@ body.dark-mode {
   border-radius: 10px;
   justify-content: center; align-items: center;
   text-decoration: none;
-  color: #ffffff;
+  color: #2f2e2f;
   font-size: 25px;
   position: relative;
+}
+.topTitel a :hover{
+  color: #ffffff;
 }
 .topTitel a span{
   z-index: 12;
@@ -132,7 +135,7 @@ body.dark-mode {
   height: 100%;
   border-radius: 10px;
   transition: .4s;
-  background-color: #267DFF;
+  background-color: #F0F0F0;
 
 }
 .topTitel a:hover::after{
@@ -147,7 +150,7 @@ body.dark-mode {
 
 .aboutBgImg{
   
-  background-image: linear-gradient(to left, rgba(154, 157, 172, 0.512), rgba(131, 138, 157, 0.452)), url('./../../public/img/bgabout.jpg');
+  background-image: linear-gradient(to left, rgba(51, 64, 101, 0.512), rgba(28, 35, 56, 0.452)), url('./../../public/img/bgabout.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -167,7 +170,7 @@ body.dark-mode {
 
 
  .wellnessBg{
-  background-image: linear-gradient(to left, rgba(37, 45, 96, 0.6), rgba(59, 67, 89, 0.452)), url('./../../public/img/wellnessBg.jpg');
+  background-image: linear-gradient(to left, rgba(5, 81, 119, 0.366), rgba(125, 131, 153, 0.838)), url('./../../public/img/wellnessBg.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -176,7 +179,7 @@ body.dark-mode {
 
  /* bgHouse background image is start */
  .bgHouse{
-   background-image: linear-gradient(to left, rgba(28, 36, 83, 0.444), rgba(59, 67, 89, 0.696)),
+   background-image: linear-gradient(to left, rgba(113, 113, 117, 0.755), rgba(22, 154, 172, 0.9)),
    url('./../../public/img/houseClients.jpg');
    background-position: center;
    background-size: cover;
@@ -186,16 +189,13 @@ body.dark-mode {
 
 
 .bgImage{
-  background-image: linear-gradient(to left, rgba(28, 36, 83, 0.444), rgba(59, 67, 89, 0.696)),
-  url('./../../public/img/bgContact.jpg');
+  background-image: linear-gradient(to bottom, rgba(59, 63, 84, 0.7), rgba(91, 105, 144, 0.7)), url('./../../public/img/wall.jpg');
   background-position: center;
-  background-size: start;
-  background-repeat: no-repeat;
-  height: 50vh;
+  background-size: cover;
 }
 
 .bgPets{
-  background-image: linear-gradient(to left, rgba(28, 36, 83, 0.536), rgba(59, 67, 89, 0.771)),
+  background-image: linear-gradient(to left, rgba(6, 66, 70, 0.275),  rgba(5, 17, 61, 0.838)),
   url('./../../public/img/Anette2softB.jpg');
   background-position: center;
   background-size: cover;
@@ -246,3 +246,7 @@ body.dark-mode {
   border: 1px solid var(--valid-color) !important;
 }
 
+.olList li{
+  list-style-type: number;
+  padding: 5px;
+}

@@ -25,11 +25,11 @@ import Link from "next/link";
 
                 <section className="w-[450px]  ">
                    <h2 className="text-center font-bold text-2xl">Address</h2>
-                    <p className="text-center font-medium text-1xl mt-4">125, Las Vegus, Main City, USA</p>
+                    <p className="text-center font-medium text-1xl mt-4"> Fredericksburg VA, USA</p>
                 </section>
                 <section className="w-[450px]  ">
                     <h2 className="text-center font-bold text-2xl">Call me</h2>
-                      <p className="text-center font-medium text-1xl mt-4"> <a href='tel:+46701777717'> +46701777717</a> </p>
+                      <p className="text-center font-medium text-1xl mt-4"> <a href='tel:+1 540-760-6875'> +1 540-760-6875</a> </p>
                 </section>
                 <section className="w-[450px]  ">
                     <h2 className="text-center font-bold text-2xl">Email me</h2>
@@ -68,7 +68,7 @@ import Link from "next/link";
                    </li>
 
                    <li className="mx-5">
-                       <Link href="https://www.linkedin.com/in/anette-stj%C3%A4rnhj%C3%A4rta-1106651b/" target="_blank">
+                       <Link href="https://www.linkedin.com/in/anette-stjärnhjärta-1106651b/" target="_blank">
                            <span  className="w-10 h-10 fill-current  text-[#55ACEE] cursor-pointer">
                              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
                                   className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -80,7 +80,7 @@ import Link from "next/link";
                    </li>
 
                    <li className="mx-5">
-                       <Link href="https://www.linkedin.com/in/anette-stj%C3%A4rnhj%C3%A4rta-1106651b/" target="_blank">
+                       <Link href="  https://www.youtube.com/channel/UCITgPpm3osuw1OYePLPCr5A" target="_blank">
                            <span   className="w-10 h-10 fill-current  text-[#CD201F] cursor-pointer">
                              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
                                   className="bi bi-youtube" viewBox="0 0 16 16">

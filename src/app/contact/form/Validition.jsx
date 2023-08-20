@@ -3,7 +3,8 @@ import React from 'react';
 export const Validation = (data) => {
   const errors = {}
   
-
+  
+  
   if ( !data.firstName.trim()) {
     errors.firstName = 'Username is required';
   } else {

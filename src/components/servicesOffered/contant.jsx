@@ -10,7 +10,7 @@ import React from 'react'
 
 const data = [
     {
-         ulr: "wellness",
+        ulr: "wellness",
         title: "Wellness and Healing",
         pgra: "Become stress and pain free NOW! Access Bars® which is a gentle, non-invasive technique that works on releasing both Physical and Mental blocks stored in the Body and help facilitate greater ease in all different areas of life.",
         img: "https://i.ontraport.com/10651.2e0b599d2e3a3cf94171d82bf89dfcb7.JPEG"
@@ -43,7 +43,7 @@ const data = [
         ulr: "contact",
         title: "Contact",
         pgra: "Anette Stjärnhjärta",
-        Phone: "+1(540)760-6875",
+        Phone: "+1 540-760-6875",
         Email: "anettestjarnhjarta@gmail.com",
         img: "https://i.ontraport.com/181547.7a27c5ef32d8ddfeb0321f12fa9ff4ec.JPEG"
     }
@@ -59,17 +59,17 @@ const Contant = () => {
             {data.map((item, index) => (
                 <div className='w-[420px] mx-4  box mt-6 rounded-xl  ' key={index}>
                     <img className='w-[100%] rounded-t-xl h-[300px] object-cover' src={item.img} alt="img" />
-                      <Link
-                      className='p-3 text-[25px] mt-5 font-bold hover:text-[#267dff] '
-                      href={item.ulr}
-                      >
-                        
-                      {item.title}
-                      </Link>
+                    <Link
+                        className='p-3 text-[25px] mt-5 font-bold hover:text-[#267dff] '
+                        href={item.ulr}
+                    >
+
+                        {item.title}
+                    </Link>
                     <p className=' p-3 w-full'>{item.pgra}</p>
 
-                    {item.Phone && <p   className=' px-3 w-full'>Phone: {item.Phone}</p>}
-                    {item.Email && <p   className=' px-3 w-full'>Email: {item.Email}</p>}
+                    {item.Phone && <p className=' px-3 w-full'>Phone: {item.Phone}</p>}
+                    {item.Email && <p className=' px-3 w-full'>Email: {item.Email}</p>}
                 </div>
             ))}
         </section>

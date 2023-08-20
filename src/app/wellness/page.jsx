@@ -8,19 +8,19 @@ const Wellness = () => {
     <div>
       <div className='wellnessBg flex items-center'>
         <section className='md:w-2/5 max-sm:px-8  ms-0 md:ms-24'>
-          <h1 className='font-bold text-[19px] md:text-[26px]'>Anette Stjärnhjärta is a Body Whisperer and are able to provide naturally healing sessions customized for each individual.</h1>
-          <p className="mt-7 font-medium text-[25px ]">She combines science and the Healing Arts. The basic understanding is that contraction like stress creates pain and illnesses, where expansion and deep relaxation creates healing.</p>
+          <h1 className='font-bold  text-[#343434] text-[19px] md:text-[26px]'>Anette Stjärnhjärta is a Body Whisperer and are able to provide naturally healing sessions customized for each individual.</h1>
+          <p className="mt-7  fonshadow-sm t-medium text-lg   text-[#343434] text-shadow-lg">She combines science and the Healing Arts. The basic understanding is that contraction like stress creates pain and illnesses, where expansion and deep relaxation creates healing.</p>
 
-          <span className='mt-6 flex'>
-            <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=020709&width=435&lines=It's+possible+to+reset+your+health+your+life.+Find+out+how!" alt="Typing SVG" /></a>
+          <span className='mt-6   text-[#d2d5db] flex'>
+            <a className=' text-[#d2d5db]' href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=020709&width=435&lines=It's+possible+to+reset+your+health+your+life.+Find+out+how!" alt="Typing SVG" /></a>
           </span>
 
-          <button className='mt-20 topTitel bg-[#142741] w-[200px] h-14 rounded-xl'>
+          <button className='mt-20 topTitel bg-[#142741] w-[230px] h-16 rounded-xl'>
             <Link
               href="/contact"
               className='absolute'
             >
-              <span>  Book New</span>
+              <span>  BOOK NEW</span>
             </Link>
           </button>
         </section>
@@ -30,7 +30,7 @@ const Wellness = () => {
       <section className=' px-16' >
 
 
-        <div className="mt-8">
+        <div className="mt-8 pt-10">
           <p className="font-bold text-center text-4xl">Wellness, Healing and Access Bars®</p>
           <p className=" w-full mx-auto mt-4 md:w-[600px]">
             Do you want to have peace of mind? <br />
@@ -64,9 +64,9 @@ const Wellness = () => {
                 width="500"
                 className="rounded-2xl"
               />
-              <figcaption className="">
-                <h2 className="text-3xl py-4  after:border ">Donna Hetrick</h2>
-                <p className="leading-8">
+              <figcaption className=" ">
+                <h2 className="text-3xl py-4   after:border ">Donna Hetrick</h2>
+                <p className="leading-8 text-lg">
                   I've worked with Anette on balancing my feminine and masculine energies and have such a greater understanding
                   of how they impact my communication with others. She provides lists, exercises and homework that really put
                   what you are learning into action. I've read and been told "Do LESS Be MORE" for many years but admittedly
@@ -87,7 +87,7 @@ const Wellness = () => {
               />
               <figcaption className="">
                 <h2 className="text-3xl py-4">Steven Mitchell</h2>
-                <p className="leading-8">
+                <p className="leading-8 text-lg">
                   "My first session with her took about 3 hours. The best way I can explain what this is, is an energy
                   transforming session on steroids! Through this session I began to let go of the trauma in past lives and present.
                   ! I was feeling free not only emotionally but spiritually! I didn't need to keep searching to find myself because

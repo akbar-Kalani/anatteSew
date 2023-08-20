@@ -12,7 +12,7 @@ const Accordion = () => {
 
   return (
     <div className=' w-full'>
-      <p className='mt-4 font-light  leading-loose '>
+      <p className='mt-4 font-light  leading-loose text-lg '>
         Anette Stjärnhjärta calls herself a nature woman; her parents introduced her to nature at a very young age. They would bring her out to the forest in the summer when they picked berries. Anette would sleep in her little basket in the comfort of a warm summer’s day. When she got older she would help pick berries. Her family would also take their boat out to the islands in the archipelago of Stockholm and go fishing. When they weren’t fishing Anette and her brother would be like seals, swimming in the water and sunbathing on the rocks.
 
         {showMore && (
@@ -36,7 +36,7 @@ const Accordion = () => {
           </>
         )}
          <br />
-        <button  className='mt-4 btn bg-[#267DFF] font-bold rounded-xl h-11 w-32 me-5' onClick={toggleAccordion}>{showMore ? 'Less' : 'More'}</button>
+        <button  className='mt-8 btn bg-[#d9dbe0] font-bold rounded-xl h-11 w-32 me-5' onClick={toggleAccordion}>{showMore ? 'Less' : 'More'}</button>
       </p>
     </div>
   );

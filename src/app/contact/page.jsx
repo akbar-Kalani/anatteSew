@@ -3,14 +3,29 @@
 import React from 'react'
 import Link from 'next/link'
 
+ import Image from 'next/image'
+
 import Form from './form/form'
 const Contact = () => {
   return (
     <section className="">
       <div className="bgImage max-sm:bg-right-[200px] flex items-center">
-        <p className="text-center w-full font-bold text-[44px]">Contact us </p>
-      </div>
 
+        <section className='flex  justify-center items-center flex-wrap-reverse'>
+          <p className=" text-center w-full px-16 md:w-[700px] my-4 md:my-0  font-bold text-[44px]">Contact us </p>
+          <figure className='w-[400px]  flex justify-center'>
+            <Image
+              className=''
+              src="/img/anettes.png"
+              width={400}
+              height={700}
+              alt='image'
+            />
+          </figure>
+        </section>
+
+      </div>
+      <Form /> 
       <div className='flex flex-wrap justify-center my-8 iconHover'>
         <section className='w-[330px] border mx-5 py-8 rounded-xl '>
           <span className="flex mx-auto items-center w-[50px] h-[50px] border rounded-[50%] justify-center">
@@ -55,7 +70,7 @@ const Contact = () => {
         </section>
 
       </div>
-        <Form/>
+  
     </section>
   )
 }
