@@ -96,7 +96,7 @@ const House = () => {
 
                     </figcaption>
                       
-                    <Image src="/img/anetteSkogen.jpg"
+                    <Image src="/img/aboutimg.jpg"
                         alt="house"
                         width="600"
                         height="400"
