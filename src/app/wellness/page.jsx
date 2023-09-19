@@ -20,7 +20,7 @@ const Wellness = () => {
               href="/contact"
               className='absolute'
             >
-              <span>  BOOK NEW</span>
+              <span> Book a Session</span>
             </Link>
           </button>
         </section>

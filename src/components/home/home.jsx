@@ -20,9 +20,7 @@ const TopHome = () => {
                         </p>
 
                          <span className='flex mt-5 font-semibold'>Create your Dream life. </span>
-                           <p className='mt-5'>
-                           <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=1000&color=1698F7&width=435&lines=with+Energy+Coaching+and+Quantum+Physics" alt="Typing SVG" />
-                           </p>
+                         <p><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Energy+Coaching+and+Healing" alt="Typing SVG" /></p>
                          <button className='mt-7 topTitel bg-[#142741] w-[200px] h-14 rounded-xl'>
                             <Link
                             href="/contact"

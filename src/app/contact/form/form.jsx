@@ -24,14 +24,15 @@ const Form = () => {
         phone: "",
         message: "",
         date: "",
-      
+        country : ""
     });
 
   
-    const [selectedCountry, setSelectedCountry] = useState(data);
+    
+
     const changeHandler = event => {
         setData({ ...data, [event.target.name]: event.target.value });
-        setSelectedCountry(event.target.value);
+         setData(event.target.value);
 
 
     };
@@ -154,7 +155,7 @@ const Form = () => {
                             <select
                                 className={`w-full myInput ${isValid ? 'valid' : 'invalid'}`}
                                 id="country"
-                                value={selectedCountry}
+                                value={data.country}
                                 onChange={changeHandler}
                             >
                                 <option value="">Select Country</option>

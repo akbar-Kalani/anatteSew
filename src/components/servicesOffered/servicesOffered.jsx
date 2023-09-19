@@ -24,22 +24,22 @@ const ServicesOffered = () => {
                 
                 <ol className='mt-7 leading-  olList '>
                     <li className=''>
-                        Energy Restoration & Clearings
+                         Energy Coaching and Healing
                     </li>
                     <li> 
                         Restoration & activation of your unique Blueprint for optimal health</li>
                     <li>
-                        Correction & release of trauma in your spine and head by lightly touching
+                        Correction & release of trauma in your spine and head by lightly touching  points on your head
                     </li>
                     <li>
-                        points on your head
+                    Access Energetic Facelift for a smooth and glowing face
                     </li>
-                    <li>
-                        Access Energetic Facelift for a smooth and glowing face
-                    </li>
-                    <li>
+                   {/*  <li>
+                     
+                    </li> */}
+                    {/* <li>
                         Energy Coaching and Healing.
-                    </li>
+                    </li> */}
                 </ol>
             </div>
         </section>

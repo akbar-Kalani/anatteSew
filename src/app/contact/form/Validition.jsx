@@ -5,13 +5,13 @@ export const Validation = (data) => {
   
   
   
-  if ( !data.firstName.trim()) {
+  if (!data.firstName.trim()) {
     errors.firstName = 'Username is required';
   } else {
     delete errors.firstName;
   }
 
-  if (!data.lastName || data.lastName.trim() === '') {
+  if ( data.lastName.trim()  ) {
     errors.lastName = 'Last name is required';
   } else {
     delete errors.lastName;

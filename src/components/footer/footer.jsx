@@ -6,7 +6,7 @@ import Link from "next/link";
   const Footer = ({ isDarkMode }) => {
     return (
       <footer className={`mt-24 ${isDarkMode ? 'light-footer' : 'dark-footer '}`}>
-        <section className="flex justify-between py-14 flex-wrap px-16  ">
+        <section className="flex  justify-center  py-14 flex-wrap px-16  ">
           <figure className="w-full flex justify-center  items-center ">
             <Image
                 src="/img/logo.png"
@@ -15,7 +15,7 @@ import Link from "next/link";
                 alt="logo"
             />
               <figcaption>
-                  <h1 className="text-3xl font-bold capitalize">
+                  <h1 className="text-4xl font-extrabold capitalize">
                       Anette Stjärnhjärta
                   </h1>
               </figcaption>
@@ -27,11 +27,11 @@ import Link from "next/link";
                    <h2 className="text-center font-bold text-2xl">Address</h2>
                     <p className="text-center font-medium text-1xl mt-4"> Fredericksburg VA, USA</p>
                 </section>
-                <section className="w-[450px]  ">
+                <section className="w-[450px] max-sm:mt-4  md:mt-0 ">
                     <h2 className="text-center font-bold text-2xl">Call me</h2>
                       <p className="text-center font-medium text-1xl mt-4"> <a href='tel:+1 540-760-6875'> +1 540-760-6875</a> </p>
                 </section>
-                <section className="w-[450px]  ">
+                <section className="w-[450px]  max-sm:mt-4 md:mt-0">
                     <h2 className="text-center font-bold text-2xl">Email me</h2>
                       <p className="text-center font-medium text-1xl mt-4">anette@stjarnhjarta.com</p>
                </section>
@@ -39,7 +39,7 @@ import Link from "next/link";
             </div>
         </section>
            <section className={`px-16 flex justify-between items-center flex-wrap py-8 ${isDarkMode ? 'copyright-light' : 'copyright-dark'}`}>
-               <div>
+               <div className='flex items-center'>
                    <p>Copyright all rights reserved stjarnhjarta.com</p>
                </div>
                <ul className="flex  mt-4 max-sm:justify-center m">

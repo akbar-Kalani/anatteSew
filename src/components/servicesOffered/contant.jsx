@@ -37,7 +37,7 @@ const data = [
         ulr: "events",
         title: "Access Energetic Facelift",
         pgra: "Access Energetic facelift is a hands-on process to rejuvenate the face and reverse the appearance of aging, plus a great technique to create similar effects throughout the body.",
-        img: "https://i.ontraport.com/10651.98a9666088af9471834d960e821367d2.JPEG"
+        img: '/img/yanig.jpg',
     },
     {
         ulr: "contact",

@@ -36,7 +36,7 @@ const Accordion = () => {
           </>
         )}
          <br />
-        <button  className='mt-8 btn bg-[#d9dbe0] font-bold rounded-xl h-11 w-32 me-5' onClick={toggleAccordion}>{showMore ? 'Less' : 'More'}</button>
+        <button  className='mt-8 btn text-gray-700 bg-[#d9dbe0] font-bold rounded-xl h-11 w-32 me-5' onClick={toggleAccordion}>{showMore ? 'Less' : 'Read More'}</button>
       </p>
     </div>
   );

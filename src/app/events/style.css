@@ -1,0 +1,12 @@
+
+
+.boxEvent{
+    transition: .4s;
+    
+  }
+  .boxEvent:hover>.boxVents{
+    transform: translateX(0) !important;
+    transition: .4s;
+    
+  }
+  

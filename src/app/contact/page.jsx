@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="bgImage max-sm:bg-right-[200px] flex items-center">
 
         <section className='flex  justify-center items-center flex-wrap-reverse'>
-          <p className=" text-center w-full px-16 md:w-[700px] my-4 md:my-0  font-bold text-[44px]">Contact us </p>
+          <p className=" text-center text-[#262626] w-full px-16 md:w-[700px] my-4 md:my-0  font-bold text-[44px]">Contact Anette </p>
           <figure className='w-[400px]  flex justify-center'>
             <Image
               className=''
@@ -36,7 +36,7 @@ const Contact = () => {
           </span>
 
           <p className='text-center mt-5'>
-            <Link href="/"> 125 LasVegas, Main city Street lane, USA</Link>
+            <Link href="/"> Fredericksburg VA, USA</Link>
           </p>
         </section>
 

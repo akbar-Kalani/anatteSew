@@ -18,7 +18,7 @@ const About = () => {
               href="/contact"
               className='absolute'
             >
-              <span>  Book a Sesstion</span>
+              <span>  Book a Session</span>
             </Link>
           </button>
         </article>
