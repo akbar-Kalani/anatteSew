@@ -58,11 +58,11 @@ const Events = () => {
       </div>
       <section className="w-full">
         <div className="px-[16px] max-sm:w-[95%] lg:w-[90%] mx-auto mt-11">
-          <section className="flex border flex-wrap md:justify-evenly">
+          <section className="flex  flex-wrap md:justify-evenly">
             {coursesData.map((course, index) => (
               <figure
                 key={index}
-                className="border boxEvent overflow-hidden relative my-2  mx-1 max-sm:w-full rounded-lg md:w-2/5 lg:w-[400px]"
+                className=" boxEvent overflow-hidden relative my-2  mx-1 max-sm:w-full rounded-lg md:w-2/5 lg:w-[400px]"
               >
                 <img
                   height={400}
