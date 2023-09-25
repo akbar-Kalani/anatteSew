@@ -21,9 +21,9 @@ import Link from "next/link";
               </figcaption>
           </figure>
 
-            <div className=" flex justify-evenly flex-wrap w-full mt-12">
+            <div className=" flex justify-evenly flex-wrap-reverse w-full mt-12">
 
-                <section className="w-[450px]  ">
+                <section className="w-[450px]  max-sm:mt-4  md:mt-0  ">
                    <h2 className="text-center font-bold text-2xl">Address</h2>
                     <p className="text-center font-medium text-1xl mt-4"> Fredericksburg VA, USA</p>
                 </section>
@@ -31,7 +31,7 @@ import Link from "next/link";
                     <h2 className="text-center font-bold text-2xl">Call me</h2>
                       <p className="text-center font-medium text-1xl mt-4"> <a href='tel:+1 540-760-6875'> +1 540-760-6875</a> </p>
                 </section>
-                <section className="w-[450px]  max-sm:mt-4 md:mt-0">
+                <section className="w-[450px]  ">
                     <h2 className="text-center font-bold text-2xl">Email me</h2>
                       <p className="text-center font-medium text-1xl mt-4">anette@stjarnhjarta.com</p>
                </section>

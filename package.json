@@ -8,12 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
-  
-
-
   "dependencies": {
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
+    "ityped": "^1.0.3",
     "next": "13.4.12",
     "postcss": "8.4.27",
     "react": "18.2.0",
