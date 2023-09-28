@@ -1,8 +1,17 @@
+
+
+"use client"
+
+
+
+
 import React from "react";
 import Image from "next/image";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';   
 import "./style.css";
 import Modal from "./modal/modal";
+import Toast, { Notify } from "./toastify/toastify";
 const coursesData = [
   {
     imageSrc: "/img/event1.jpg",
@@ -66,7 +75,10 @@ const Events = () => {
       </div>
       <section className="w-full">
         <div>
-          <Modal />
+        {/*   <Modal /> */}
+        <Toast />
+      <ToastContainer />
+    
         </div>
         <div className="px-[16px] max-sm:w-[95%] lg:w-[90%] mx-auto mt-11">
           <section className="flex  flex-wrap justify-center">
