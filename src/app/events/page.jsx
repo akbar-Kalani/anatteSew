@@ -5,14 +5,14 @@
 
 
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';   
 import "./style.css";
-import Modal from "./modal/modal";
+/* import Modal from "./modal/modal"; */
 import Toast, { Notify } from "./toastify/toastify";
-const coursesData = [
+/* const coursesData = [
   {
     imageSrc: "/img/event1.jpg",
     title: "Stress release and burnout prevention, Access Bars®",
@@ -57,10 +57,18 @@ const coursesData = [
       "This is not another workshop about positive thinking or attraction. This is how creation and energy work. You will learn hands-on tools on how to work with the energy of a problem and when you change the energy you can have another result.",
   },
 ];
-
+ */
 const Events = () => {
   /* img1.jpg */
+  const [coursesData, setCoursesData] = useState([]);
 
+  useEffect(() => {
+    // Fetch data from the API
+    fetch('https://6573b4f7f941bda3f2af176c.mockapi.io/event/eventData')
+      .then((response) => response.json())
+      .then((data) => setCoursesData(data))
+      .catch((error) => console.error('Error fetching data:', error));
+  }, []);
   return (
     <section className="w-full">
       <div>
@@ -88,7 +96,7 @@ const Events = () => {
                 className=" boxEvent overflow-hidden relative my-2  mx-1 max-sm:w-full rounded-lg md:w-2/5 lg:w-[400px]"
               >
                 <img
-                  src={course.imageSrc}
+                  src={course.image}
                   alt="Wellness Background"
                   className="w-[100%] rounded-lg h-[300px] object-cover"
                 />

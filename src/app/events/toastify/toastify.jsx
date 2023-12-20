@@ -27,6 +27,7 @@ const Toast = () => {
           
           toast(' Please click at the pictures for more information about available events!', {
             position: 'top-right',
+            
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -46,3 +47,6 @@ const Toast = () => {
 };
 
 export default Toast;
+
+
+/* https://meet.google.com/buv-usrz-cux   لینک جلسه جاوا اسکریپت  */

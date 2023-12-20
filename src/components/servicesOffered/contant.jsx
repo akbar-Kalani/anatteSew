@@ -55,7 +55,7 @@ const data = [
 
 const Contant = () => {
     return (
-        <section className='flex mt-16 flex-wrap justify-between'>
+        <section className='flex mt-16 flex-wrap justify-center'>
             {data.map((item, index) => (
                 <div className='w-[420px] mx-4  box mt-6 rounded-xl  ' key={index}>
                     <img className='w-[100%] rounded-t-xl h-[300px] object-cover' src={item.img} alt="img" />

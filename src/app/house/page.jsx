@@ -16,7 +16,7 @@ const House = () => {
                             href="/contact"
                             className='absolute'
                         >
-                            <span>  Book a Session</span>
+                            <span  className='h-full w-full flex justify-center items-center'>  Book a Session</span>
                         </Link>
                     </button>
                 </div>
@@ -39,7 +39,7 @@ const House = () => {
                     />
 
 
-                    <figcaption className="w-[48%] mt-5 md:mt-0 ">
+                    <figcaption className="w-[48%] max-sm:w-full mt-5 md:mt-0 ">
                         <h3 className="font-bold text-4xl">House Clearing</h3>
                         <p className='leading-8 mt-4 text-lg '>
                             Is your home and property haunted or infested with negative energy? <br />
@@ -64,7 +64,7 @@ const House = () => {
 
                 <figure className="flex flex-wrap-reverse justify-evenly">
 
-                    <figcaption className="w-[48%] mt-5 md:mt-0">
+                    <figcaption className="w-[48%] max-sm:w-full mt-5 md:mt-0">
                         <span className='text-[40px] font-medium'>
                             Signs that your home could be haunted:
                         </span>
@@ -85,12 +85,12 @@ const House = () => {
                             Anette has walked the battle fields in the Fredericksburg area, helping ghosts who were stuck to move on. <br />
                             She also helped a young couple to clear their grandfather’s house which would not sell because the ghost of the grandfather did not want the house to sell. Shortly after her work, the house sold.
                         </p>
-                        <button className='mt-12 border shadow-md topTitel bg-[#142741] w-[230px] h-16 rounded-xl'>
+                        <button className='mt-24 topTitel bg-[#142741] w-[230px] h-16 rounded-xl'>
                         <Link
                             href="/contact"
                             className='absolute'
                         >
-                            <span>  Book a Session</span>
+                            <span  className='h-full w-full flex justify-center items-center'>  Book a Session</span>
                         </Link>
                     </button>
 

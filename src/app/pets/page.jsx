@@ -25,7 +25,7 @@ const Pets = () => {
               href="/contact"
               className='absolute'
             >
-              <span>  Book a Session</span>
+              <span  className='h-full w-full flex justify-center items-center'>  Book a Session</span>
             </Link>
           </button>
         </div>

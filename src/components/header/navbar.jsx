@@ -46,7 +46,12 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
+  
+     const [click, setClick] = useState(false)
+      const clickMenu = () => {
+        setClick(!click)
+        
+      }
     return (
 
         <section className='w-full'>
@@ -64,7 +69,8 @@ const Navbar = () => {
             <ul className='hidden md:flex justify-end  '>
                 {items.map((item, index) => (
                     <li className='w-auto mx-4 text-center font-medium' key={index}>
-                        <Link className='hover:text-[#267DFF]' href={item.url}>{item.title}</Link>
+                         
+                        <Link onClick={clickMenu}  className='' href={item.url}>{item.title}</Link>
                     </li>
                 ))}
             </ul>
@@ -82,3 +88,9 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+/*  className='hover:text-[#ff4a26] */

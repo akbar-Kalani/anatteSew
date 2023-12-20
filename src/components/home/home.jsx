@@ -32,7 +32,7 @@ const TopHome = () => {
 
             <button className="mt-7 topTitel bg-[#142741] w-[200px] h-14 rounded-xl">
               <Link href="/contact" className="absolute">
-                <span> Book a Sesstion</span>
+                <span  className='h-full w-full flex justify-center items-center'> Book a Sesstion</span>
               </Link>
             </button>
           </div>

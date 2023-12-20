@@ -15,12 +15,12 @@ const Wellness = () => {
             <a className=' text-[#d2d5db]' href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=020709&width=435&lines=It's+possible+to+reset+your+health+your+life.+Find+out+how!" alt="Typing SVG" /></a>
           </span>
 
-          <button className='mt-20 topTitel bg-[#142741] w-[230px] h-16 rounded-xl'>
+          <button className='mt-24 topTitel bg-[#142741] w-[230px] h-16 rounded-xl'>
             <Link
               href="/contact"
               className='absolute'
             >
-              <span> Book a Session</span>
+              <span  className='h-full w-full flex justify-center items-center'> Book a Session</span>
             </Link>
           </button>
         </section>
